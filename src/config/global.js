@@ -1,17 +1,37 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name:
+      'Métodos de conservación y preparación de conservas de frutas y verduras.',
+    Description: `Este componente proporciona una guía completa sobre los métodos de conservación y 
+    preparación de conservas de frutas y verduras. Explica al aprendiz la importancia de la clasificación 
+    de los alimentos para su uso adecuado y la prevención de su deterioro. Se describen los factores que 
+    afectan la seguridad alimentaria, incluyendo los agentes biológicos, el almacenamiento adecuado y el 
+    control de temperatura y humedad. Se detallan métodos de conservación como la salazón, la adición de 
+    azúcar y alcohol, y el escaldado, con especial énfasis en la pasteurización y esterilización, así como 
+    también aborda la elaboración de almíbares, mermeladas y conservas de vegetales en salmuera, detallando 
+    paso a paso el proceso, desde la selección de los ingredientes hasta el envasado y almacenamiento.`,
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/envase-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/envase-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/envase-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/envase-4.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/envase-5.png'),
       },
     ],
   },
@@ -31,27 +51,20 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Métodos de conservación de frutas y verduras',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Preparación de conservas de frutas.',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Preparación de conservas de vegetales.',
         desarrolloContenidos: true,
       },
     ],
