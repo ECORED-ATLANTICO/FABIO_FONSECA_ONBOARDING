@@ -10,7 +10,7 @@
       h3
         span.title-with-decoration Introducción
       .row
-        .col-lg-7
+        .col-lg-7.mb-3.mb-lg-0
           p La conservación de alimentos es una práctica milenaria que ha permitido a la humanidad asegurar su sustento a lo largo de la historia. Desde las técnicas más rudimentarias hasta los métodos modernos, el objetivo siempre ha sido el mismo: prolongar la vida útil de los alimentos, preservando su sabor y valor nutricional. Se explorará la conservación de frutas y verduras, descubriendo cómo la ciencia y la tradición se combinan para ofrecernos una amplia gama de sabores que podemos disfrutar durante todo el año.
           p Exploraremos en detalle los diferentes métodos de conservación, desde los más tradicionales, como la salazón, el uso de azúcar o la adición de alcohol, hasta técnicas más sofisticadas que involucran el control de temperatura y la eliminación de microorganismos, como la pasteurización y esterilización. Aprenderemos a diferenciar cada método y a comprender sus principios básicos, lo que nos permitirá seleccionar la técnica más adecuada para cada tipo de fruta o verdura, optimizando su conservación y asegurando la calidad del producto final.
         .col-lg-5
@@ -19,19 +19,31 @@
 
       Separador
 
-      .titulo-segundo.color-acento-contenido
-        h3 1.1 Generalidades de la conservación
-            
-      Separador
+      h3.titulo-segundo.color-acento-contenido
+        span 1.1 Generalidades de la conservación
+      
+      .row.justify-content-center.fullwith-bg.mb-3.mb-lg-5
+        figure.mb-5
+          img(src='@/assets/curso/temas/tema-1/banner1-1.png', alt='Banner con conservas de alimentos')
+        .col-lg-10.mb-5
+          figure
+            img(src='@/assets/curso/temas/tema-1/machine.png', alt='Imagen animada de una máquina')
+ 
+        .row.justify-content-center.align-items-center.bg-quote.p-3.px-md-5.py-md-4.rounded-5
+          .col-md-3.m-auto
+            figure
+            img.author-image.mb-3.mb-lg-0(src='@/assets/curso/temas/tema-1/nicolas-francois.png', alt='Ilustracion del rostro de nicolas francois')
+          .col-md-9
+            p La conservación de alimentos ha sido un pilar fundamental para la supervivencia y el desarrollo de la humanidad. Desde tiempos remotos, la búsqueda de métodos para preservar el alimento y evitar su descomposición ha sido una constante. En sus inicios, la comprensión de los agentes causantes del deterioro era limitada (Jay, 2005), lo que representaba un desafío para el desarrollo de técnicas efectivas de conservación. Sin embargo, la inventiva humana sentó las bases para importantes avances en este campo.
+            p Nicolas Appert desarrolló un método a gran escala para conservar alimentos que fue un precursor del enlatado. Fuente: Universal History Archive/Getty Images      
 
-    .container.tarjeta.tarjeta--blanca.rounded-0
       .row.justify-content-center.align-items-center 
-        h4.text-center.mb-5
+        h4.text-center.mb-3.mb-lg-5
           span.intersesion-title.rounded-2 Factores que determinan la calidad de las conservas
 
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bg-adicional-2.rounded-top-0
-      .row
-        .col-lg-8
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.mb-lg-0.bg-adicional-2.rounded-top-0
+      .row.justify-content-center
+        .col-lg-8.mb-3.mb-lg-0
           SlyderF(columnas="col-lg-6")
             .tarjeta.p-4.bg-white.rounded-2
               .row.justify-content-center.mb-3
@@ -69,7 +81,7 @@
               h2.text-center Duración de la conserva
               p.text-center esta debe durar el tiempo que se determinó por el fabricante.
             
-        .col-lg-4
+        .col-9.col-lg-4
           figure
             img(src='@/assets/curso/temas/2.png', alt='conservas de alimentos')
 

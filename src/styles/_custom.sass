@@ -52,7 +52,6 @@
 
 .title-with-decoration
   font-size: 1.25rem
-  font-weight: 500
   position: relative
   display: inline-block
   padding: 10px 50px
@@ -82,4 +81,23 @@
 
 figcaption
   font-weight: normal
- 
+
+.fullwith-bg
+  position: relative
+  z-index: 1
+  &::before
+    content: url('../assets/curso/temas/tema-1/background-1-1.png')
+    position: absolute
+    top: 30%;
+    z-index: -1;
+    display: block;
+
+.bg-quote
+  background-image: url('../assets/curso/temas/tema-1/background-1-1-2.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+.author-image
+  max-width: 218px;
+  margin: 0 auto;
