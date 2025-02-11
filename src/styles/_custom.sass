@@ -50,6 +50,35 @@
   max-width: 500px;
   align-self: end;
 
+.title-with-decoration
+  font-size: 1.25rem
+  font-weight: 500
+  position: relative
+  display: inline-block
+  padding: 10px 50px
+  background-color: $color-adicional-2
+  border-radius: 2rem
+  margin-left: 4rem
+  &::before
+    content: url('../assets/curso/temas/arrows.svg')
+    position: absolute
+    top: -6px;
+    left: -60px;
+
+.bg-adicional-1
+  background-color: $color-adicional-1
+
+.bg-adicional-2
+  background-color: $color-adicional-2
+
+.intersesion-title
+  font-size: 1rem
+  color: white
+  background-color: $color-primario
+  font-weight: 700
+  padding: 20px
+  display: inline-block
+  text-align: center
 
 figcaption
   font-weight: normal
