@@ -75,7 +75,7 @@
   color: white
   background-color: $color-primario
   font-weight: 700
-  padding: 20px
+  padding: 12px 20px
   display: inline-block
   text-align: center
 
@@ -107,3 +107,15 @@ figcaption
 .author-image
   max-width: 218px;
   margin: 0 auto;
+
+.acordion__accion__btn--a
+  background-color: $color-acento-contenido
+  color: white
+
+.acordion__activo
+  background-color: lighten($color-secundario, 40%)
+
+  .acordion__accion__btn--a
+    background-color: lighten($color-secundario, 10%)
+    color: white
+

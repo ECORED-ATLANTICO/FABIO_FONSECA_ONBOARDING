@@ -73,11 +73,20 @@
         .col-lg-3.col-md-4.align-content-center
           img.author-image.mb-3.mb-lg-0(src='@/assets/curso/temas/tema-1/louispasteur.png', alt='Imagen decorativa')
 
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.mb-lg-0.bg-adicional-2.rounded-top-0
-      .row.justify-content-center.align-items-center 
-        h4.text-center.mb-3.mb-lg-5
-          span.intersesion-title.rounded-2 Factores que determinan la calidad de las conservas
-      .row.justify-content-center
+      .row.justify-content-center.my-3
+        .col-8.col-md-3.align-content-center
+          img.my-3(src='@/assets/actividad/imagen2.png', alt='Imagen decorativa')
+        .col-md-9
+          p.my-3 En la actualidad, la ciencia y la tecnología han permitido ampliar el abanico de métodos de conservación, incluyendo la refrigeración, la congelación, la deshidratación y la irradiación, entre otros. Estos avances han transformado la industria alimentaria, haciendo posible que los consumidores accedan a una mayor variedad de productos frescos y procesados durante todo el año. Sin embargo, la aplicación inadecuada de estas técnicas puede comprometer la seguridad alimentaria, permitiendo la proliferación de microorganismos peligrosos como el <em>Clostridium botulinum</em>, causante del botulismo (<em>Centers for Disease Control and Prevention</em>. 2022). Por ello, es crucial seguir prácticas de higiene rigurosas y controlar de forma precisa las condiciones de temperatura, tiempo y proceso durante la elaboración de conservas.
+          .cajon.color-secundario.p-4.my-3
+            p.mb-0 El objetivo principal de la conservación de alimentos no se limita únicamente a prolongar su vida útil, sino también a preservar al máximo su calidad nutricional y organoléptica. Se busca que los alimentos conserven sus características sensoriales, como sabor, aroma, textura y color, así como sus vitaminas y minerales, brindando al consumidor una experiencia agradable y nutritiva. Para lograr este objetivo, es fundamental considerar diversos factores durante la producción de conservas, desde la selección de materias primas de alta calidad hasta el control de las condiciones de elaboración, los costos de producción, el mercado objetivo y la vida útil del producto final.
+
+      .row.justify-content-center.mb-4.mb-lg-3
+        .col-md-8
+          h4.text-center.color-secundario
+            span.intersesion-title.rounded-3 Factores que determinan la calidad de las conservas
+
+      .row.justify-content-center.align-items-center.px-3.py-5.bg-adicional-2.mb-3.mb-lg-5
         .col-lg-8.mb-3.mb-lg-0
           SlyderF(columnas="col-lg-6")
             .tarjeta.p-4.bg-white.rounded-2
@@ -120,544 +129,56 @@
           figure
             img(src='@/assets/curso/temas/2.png', alt='conservas de alimentos')
 
+      h3(data-aos='zoom-in-right').mb-3.mb-lg-4
+        span.title-with-decoration Las primeras formas de conservación de los alimentos
 
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.rounded-top-0
-      Separador
+      p.mb-3.mb-lg-4 La observación de la naturaleza y sus ciclos brindó al ser humano las primeras herramientas para la conservación de alimentos. A través de la manipulación de elementos básicos como el sol, el aire y el fuego, surgieron técnicas ancestrales que aún hoy en día despiertan nuestra admiración por su simplicidad y efectividad.
 
-      AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        div(titulo="Titulo item 2")
+      .row.justify-content-center.mb-3.mb-lg-4
+        .col-8.col-lg-4.align-content-center(data-aos="fade-left")
           figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
+            img.mb-3.mb-lg-4(src="@/assets/actividad/imagen3.png", alt="Una persona y conservas de alimentos")
+        .col-lg-8.justify-content-center.align-content-center
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--acento-contenido")
+            .row.justify-content-center(titulo="Desecación")
+              .align-content-center
+                p Desde épocas prehistóricas, la desecación, o secado al aire libre, se ha utilizado para eliminar la humedad de los alimentos, impidiendo el crecimiento de microorganismos que causan su descomposición. Frutas, carnes, pescados y semillas se exponían al sol y al viento para reducir su contenido de agua, prolongando así su vida útil. Esta técnica, sencilla pero efectiva, permitió a las primeras civilizaciones almacenar excedentes de alimentos para épocas de escasez.
+            .row.justify-content-center(titulo="Deshidratación")
+              .align-content-center
+                p Similar a la desecación, la deshidratación busca eliminar la humedad de los alimentos, pero se diferencia en que se utilizan fuentes de calor artificiales o controladas para acelerar el proceso. El uso del fuego para ahumar carnes y pescados, además de conferirles un sabor característico, permitía una mejor conservación al combinar la deshidratación con la acción de los compuestos del humo. Hoy en día, la deshidratación se realiza mediante tecnologías más avanzadas, como hornos de secado y deshidratadores eléctricos, que permiten un control preciso de la temperatura y la humedad para obtener productos de mayor calidad.
+            .row.justify-content-center(titulo="Conservación por frío")
+              .align-content-center
+                p La observación de que los alimentos se conservaban mejor en ambientes fríos llevó al desarrollo de técnicas de conservación por frío. En sus inicios, se utilizaban cuevas, pozos y agua de ríos y lagos para mantener los alimentos a bajas temperaturas. Posteriormente, la nieve y el hielo se convirtieron en valiosos recursos para la conservación de alimentos, especialmente durante los meses más cálidos. Estas prácticas ancestrales sentaron las bases para el desarrollo de la refrigeración moderna.
+            .row.justify-content-center(titulo="Conservación por calor")
+              .align-content-center
+                p El calor se ha utilizado desde la antigüedad para eliminar microorganismos y prolongar la vida útil de los alimentos. La cocción de los alimentos no solo los hace más apetecibles y digeribles, sino que también destruye una parte importante de los microorganismos presentes. Técnicas como la cocción en agua hirviendo, al vapor o en hornos de leña, además del desarrollo de preparaciones como mermeladas y jaleas utilizando el calor para concentrar el azúcar y los ácidos de las frutas, son ejemplos del ingenio humano para aprovechar el calor como método de conservación.
 
+      .row.justify-content-center.mb-4.mb-lg-3
+        .col-md-10
+          h4.text-center.color-primario
+            span.intersesion-title.rounded-3 Estos son los métodos más usados e importantes dentro de la conservación:
 
-
-
-      //- AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-      //-   .row(titulo="Titulo item 1")
-      //-     .col-md-6.mb-4.mb-md-0
-      //-       p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      .row.justify-content-center.mb-3.mb-lg-4
+        .col-lg-8.justify-content-center.align-content-center
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--acento-contenido")
+            .row.justify-content-center(titulo="Salazón")
+              .align-content-center
+                p Esta técnica consiste en adicionar grades cantidades de sal a un alimento, puede ser en seco o introduciendo el producto en una salmuera. El proceso que ocurre es que la sal ayuda a retener humedad lo que ocasiona la deshidratación en el producto. Los alimentos conservados por esta técnica tienen menor valor nutritivo, puesto que en el agua quedan muchos de sus nutrientes.      
+            .row.justify-content-center(titulo="Adición de azúcar")
+              .align-content-center
+                p Este método consiste en adicionar azúcar con la finalidad de disminuir la actividad del agua presente en el alimento para dificultar su oxidación, es por eso que entre más concentración tiene un almíbar más estabilidad le da al producto, esta técnica es usada en frutas para la elaboración de mermeladas, jaleas y frutas en almíbar. Dicho método consiste en poner a hervir la fruta en agua y al poco tiempo se le adiciona el azúcar o sacarosa en relación a la cantidad de producto y la concentración que se desea obtener.
+            .row.justify-content-center(titulo="Adición de alcohol")
+              .align-content-center
+                p Esta técnica es muy usada para conservar frutas y hortalizas y se hace de forma artesanal, tiene como objetivo que el alcohol ayude a conservar el alimento al penetrarlo, reemplazando los líquidos que este contiene inicialmente. Algunas veces este método se hace en combinación con azúcar y consiste en perforar la fruta con una aguja para que penetre mejor la solución de alcohol y azúcar, y así conservar mejor el producto. Esta técnica es muy usada en la preparación de licores de frutas.
+            .row.justify-content-center(titulo="Escaldado")
+              .align-content-center
+                p Esta operación es previa a la realización de una conserva, con ella se busca inactivar enzimas y reducir la carga bacteriana, el escaldo también se puede decir que es un tratamiento térmico, se realiza a 100 ºC y ayuda a acentuar el color de los alimentos y reblandecimiento de tejidos. Para inactivar las enzimas, es importante efectuar un calentamiento rápido bajo una temperatura y tiempo determinado.
         
-      //-     .col-md-6
-      //-       figure
-      //-         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-         figcaption Leyenda de la imagen
-
-      //-   .row(titulo="Titulo item 2")
-      //-     .col-md-6
-      //-       figure
-      //-         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-         figcaption Leyenda de la imagen
-
-      //-     .col-md-6.mb-4.mb-md-0
-      //-       p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      //- Separador
-
-      //- ImagenInfografica.color-primario
-      //-   template(v-slot:imagen)
-      //-     figure
-      //-       img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-       figcaption Leyenda de la imagen
-
-      //-   .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-      //-     .h5.mb-2 titulo
-      //-     p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      //-   .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="A")
-      //-     .h5.mb-2 titulo
-      //-     p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      //-   .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
-      //-     .h5.mb-2 titulo
-      //-     p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      //- Separador
-
-      //- ImagenInfograficaB.color-primario
-      //-   template(v-slot:imagen)
-      //-     figure
-      //-         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-         figcaption Leyenda de la imagen
-
-      //-   div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
-      //-     h5 titulo
-      //-     p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-      //-     p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-      //-     p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      //-   div(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
-      //-     h5.mb-2 titulo
-      //-     p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      //-   div(x="70%" y="70%" tooltip="tooltip de max 35 caracteres")
-      //-     .h5.mb-2 titulo
-      //-     p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      //- Separador
-
-
-      //- TarjetaAudio.color-primario.mb-3(
-      //-   texto="Texto de muestra  "
-      //-   :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-      //-   @audio-hover="mostrarIndicadorTarjetaAudio = false"
-      //- )
-      //-   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-      //- TarjetaAudio.color-secundario.mb-3(
-      //-   texto="Texto de muestra <br> Texto de muestra "
-      //-   :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-      //- )
-
-      //- Separador
-
-
-      //- .tarjeta.tarjeta--azul.p-4
-      //-   SlyderA(tipo="b")
-      //-     .row
-      //-       .col-md-6.mb-4.mb-md-0
-      //-         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      //-       .col-md-6
-      //-         figure
-      //-           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-           figcaption Leyenda de la imagen
-
-      //-     .row.justify-content-center.align-items-center.my-lg-4
-      //-       .col-md-6
-      //-         figure
-      //-           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-           figcaption Leyenda de la imagen
-
-      //-       .col-md-6.mb-4.mb-md-0
-      //-         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      //- Separador
-
-      //- .tarjeta.tarjeta--gris.p-4
-      //-   PasosB.color-acento-contenido
-      //-     .row(titulo="")
-      //-       .col-md-6.mb-4.mb-md-0
-      //-         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      //-       .col-md-6
-      //-         figure
-      //-           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-           figcaption Leyenda de la imagen
-
-      //-     .row(titulo="")
-      //-       .col-md-6
-      //-         figure
-      //-           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-           figcaption Leyenda de la imagen
-      //-       .col-md-6.mb-4.mb-md-0
-      //-         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-
-      //- Separador
-
-      //- .tarjeta.tarjeta--gris.p-4
-      //-   LineaTiempoC.color-acento-contenido(text-small)
-      //-     .row(titulo="Titulo 1")
-      //-       .col-md-6.mb-4.mb-md-0
-      //-         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      //-       .col-md-6
-      //-         figure
-      //-           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-           figcaption Leyenda de la imagen
-
-
-      //-     .row(titulo="Titulo 2")
-      //-       .col-md-6
-      //-         figure
-      //-           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-           figcaption Leyenda de la imagen
-
-      //-       .col-md-6.mb-4.mb-md-0
-      //-         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      //- Separador
-
-      //- SlyderF(columnas="col-lg-6 col-xl-4")
-      //-   .tarjeta.color-acento-botones.p-4
-      //-     .row.justify-content-center.mb-3
-      //-       .col-8
-      //-         img(src='@/assets/curso/temas/carousel-1.svg' alt='AvatarTop')
-      //-     h2.text-center FIRST
-      //-     p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-      //-   .tarjeta.color-acento-botones.p-4
-      //-     .row.justify-content-center.mb-3
-      //-       .col-8
-      //-         img(src='@/assets/curso/temas/carousel-1.svg' alt='AvatarTop')
-      //-     h2.text-center 2
-      //-     p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-      //-   .tarjeta.color-acento-botones.p-4
-      //-     .row.justify-content-center.mb-3
-      //-       .col-8
-      //-         img(src='@/assets/curso/temas/carousel-1.svg' alt='AvatarTop')
-      //-     h2.text-center 3
-      //-     p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-      //-   .tarjeta.color-acento-botones.p-4
-      //-     .row.justify-content-center.mb-3
-      //-       .col-8
-      //-         img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-      //-     h2.text-center 4
-      //-     p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-      //-   .tarjeta.color-acento-botones.p-4
-      //-     .row.justify-content-center.mb-3
-      //-       .col-8
-      //-         img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-      //-     h2.text-center 5
-      //-     p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-      //-   .tarjeta.color-acento-botones.p-4
-      //-     .row.justify-content-center.mb-3
-      //-       .col-8
-      //-         img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-      //-     h2.text-center 6
-      //-     p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-      //-   .tarjeta.color-acento-botones.p-4
-      //-     .row.justify-content-center.mb-3
-      //-       .col-8
-      //-         img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-      //-     h2.text-center 7
-      //-     p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-      //-   .tarjeta.color-acento-botones.p-4
-      //-     .row.justify-content-center.mb-3
-      //-       .col-8
-      //-         img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-      //-     h2.text-center LAST
-      //-     p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-            
-      //- Separador
-
-      //- LineaTiempoD.color-primario
-      //-   .row(numero="1" titulo="Praesent luctus")
-      //-     .col-md-6.mb-4.mb-md-0
-      //-       p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-      //-     .col-md-6
-      //-       figure
-      //-         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-         figcaption Leyenda de la imagen
-
-      //-   .row(numero="2" titulo="Praesent luctus")
-      //-     .col-md-6
-      //-       figure
-      //-         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-         figcaption Leyenda de la imagen
-      //-     .col-md-6.mb-4.mb-md-0
-      //-       p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.  
-
-      //-   .row(numero="3" titulo="Praesent luctus")
-      //-     .col-md-6
-      //-       figure
-      //-         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-         figcaption Leyenda de la imagen
-      //-     .col-md-6.mb-4.mb-md-0
-      //-       p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-
-
-      //- Separador
-
-      //- TabsA.color-acento-botones
-      //-   .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
-      //-     h4 PASO 1: The splendor
-      //-     p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-      //-       strong user style sheets
-      //-       |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-      //-     p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      //-   .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2")
-      //-     h4 PASO 2: The splendor
-      //-     .row
-      //-       .col-xl-6.mb-4
-      //-         figure
-      //-           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-           figcaption Leyenda de la imagen
-      //-       .col-xl-6
-      //-         p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-      //-           strong user style sheets
-      //-           |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-      //-         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      //- Separador
-
-
-      //- TabsC.color-primario
-      //-   .py-3.py-md-4(titulo="The splendor of the mystery")
-      //-     .row
-      //-       .col-md-6.mb-4.mb-md-0
-      //-         h4 Celebrate your failures 1
-      //-         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-      //-       .col-md-6
-      //-         figure
-      //-           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-           figcaption Leyenda de la imagen
-      //-   .py-3.py-md-4(titulo="Don’t lie to yourself")
-      //-     .row
-      //-       .col-md-6.mb-4.mb-md-0
-      //-         figure
-      //-           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-           figcaption Leyenda de la imagen
-      //-       .col-md-6
-      //-         h4 Celebrate your failures 2
-      //-         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-
-
-      //- Separador
-
-
-      //- TabsB.color-primario
-      //-   .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-      //-     .row
-      //-       .col-md-6.mb-4.mb-md-0
-      //-         h4 Celebrate your failures 1
-      //-         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-      //-       .col-md-6
-      //-         figure
-      //-           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-           figcaption Leyenda de la imagen
-      //-   .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
-      //-     .row
-      //-       .col-md-6.mb-4.mb-md-0
-      //-         figure
-      //-           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-           figcaption Leyenda de la imagen
-      //-       .col-md-6
-      //-         h4 Celebrate your failures 2
-      //-         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      //- Separador
-
-
-
-      //- LineaTiempoE.color-primario
-      //-   .row(titulo="2014 - Present" subtitulo="Title, Company")
-      //-     .col-lg-6.mb-4.mb-lg-0
-      //-       p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      //-     .col-lg-6
-      //-       figure
-      //-         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-         figcaption Leyenda de la imagen
-
-      //-   .row(titulo="2014 - Present" subtitulo="Title, Company")
-      //-     .col-lg-6
-      //-       figure
-      //-         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-         figcaption Leyenda de la imagen      
-      //-     .col-lg-6.mb-4.mb-lg-0
-      //-       p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-
-      //- Separador
-
-      //- PasosA.color-primario.mb-5(tipo="n")
-      //-   .row
-      //-     .col-md-6.mb-4.mb-md-0
-      //-       h3 Lorem ipsum dolor sit amet.
-      //-       p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      //-     .col-md-6
-      //-       figure
-      //-         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-         figcaption Leyenda de la imagen
-
-      //-   .row
-      //-     .col-md-6.mb-4.mb-md-0
-      //-       figure
-      //-         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-         figcaption Leyenda de la Imagen
-      //-     .col-md-6
-      //-       h3 Nullam vulputate mauris eros, ut.
-      //-       p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-            
-
-      //-   .row
-      //-     .col-md-6.mb-4.mb-md-0
-      //-       h3 Duis laoreet est non ligula.
-      //-       p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-      //-     .col-md-6
-      //-       figure
-      //-         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-         figcaption Leyenda de la imagen
-
-      //-   .row
-      //-     .col-md-6.mb-4.mb-md-0
-      //-       h3 Duis laoreet est non ligula.
-      //-       p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-      //-     .col-md-6
-      //-       figure
-      //-         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      //-         figcaption Leyenda de la imagen
-
-
-      //- Separador
-
-      //- p(data-aos="fade-left").mb-4 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      //- .row
-      //-   .col-sm-6.col-lg-3.mb-4.mb-lg-0
-      //-     .tarjeta--boton.color-primario.p-4
-      //-       .row.justify-content-center.mb-3
-      //-         .col-7
-      //-           figure
-      //-             img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-      //-       h3.text-center Intuition important
-      //-       p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-      //-   .col-sm-6.col-lg-3.mb-4.mb-lg-0
-      //-     .tarjeta--boton.color-secundario.p-4
-      //-       .row.justify-content-center.mb-3
-      //-         .col-7
-      //-           figure
-      //-             img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-      //-       h3.text-center Intuition important
-      //-       p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-      //-   .col-sm-6.col-lg-3.mb-4.mb-sm-0
-      //-     .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
-      //-       .row.justify-content-center.mb-3
-      //-         .col-7
-      //-           figure
-      //-             img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-      //-       h3.text-center Intuition important
-      //-       p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-      //-   .col-sm-6.col-lg-3
-      //-     .tarjeta--boton.color-acento-botones.p-4
-      //-       .row.justify-content-center.mb-3
-      //-         .col-7
-      //-           figure
-      //-             img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-      //-       h3.text-center Intuition important
-      //-       p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-
-      //- Separador
-
-
-
-      //- .tarjeta--container.row.mb-5
-      //-   .col-md.tarjeta.color-primario.p-5
-      //-     .row.justify-content-center.mb-4
-      //-       .col-6
-      //-         figure
-      //-           img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-      //-     h2.text-center Celebrate your<br>failures
-      //-     p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      //-   .col-md.tarjeta.color-acento-botones.p-5
-      //-     .row.justify-content-center.mb-4
-      //-       .col-6
-      //-         figure
-      //-           img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-      //-     h2.text-center Sterility leads to<br>susceptibility
-      //-     p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-      //-   .col-md.tarjeta.color-acento-contenido.text-white.p-5
-      //-     .row.justify-content-center.mb-4
-      //-       .col-6
-      //-         figure
-      //-           img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-      //-     h2.text-center Sterility leads to<br>susceptibility
-      //-     p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-
-
-      //- Separador
-
-      //- .row
-      //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0
-      //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-      //-       .indicador--hover(v-if="indicadorTarjetaSlide")
-      //-       .tarjeta-slide__contenedor
-      //-         .tarjeta-slide__contenido.p-4.p-xl-5
-      //-           h1 John Doe
-      //-           p Lorem ipsum dolor sit amet, 
-      //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-
-      //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0
-      //-     .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-      //-       .tarjeta-slide__contenedor
-      //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-      //-         .tarjeta-slide__contenido.p-4.p-xl-5
-      //-           h1 John Doe
-      //-           p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-      //-   .col-sm-6.col-xl-3.mb-4.mb-sm-0
-      //-     .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-      //-       .tarjeta-slide__contenedor
-      //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-      //-         .tarjeta-slide__contenido.p-4.p-xl-5
-      //-           h1 John Doe
-      //-           p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-      //-   .col-sm-6.col-xl-3
-      //-     .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-      //-       .tarjeta-slide__contenedor
-      //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-      //-         .tarjeta-slide__contenido.p-4.p-xl-5
-      //-           h1 John Doe
-      //-           p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-
-      //- Separador
-      //- .row
-      //-   .col-md-6.col-xl.mb-4.mb-xl-0
-      //-     .tarjeta-numerada.color-primario.p-5
-      //-       .tarjeta-numerada__numero
-      //-         .h2 1
-      //-       p.text-center 
-      //-         b Ruta integral de atención en salud 
-      //-       p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-      //-   .col-md-6.col-xl.mb-4.mb-xl-0
-      //-     .tarjeta-numerada.color-secundario.p-5
-      //-       .tarjeta-numerada__numero
-      //-         .h2 2
-      //-       p.text-center 
-      //-         b Ruta integral de atención en salud 
-      //-       p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-      //-   .col-md-6.col-xl.mb-4.mb-xl-0
-      //-     .tarjeta-numerada.color-acento-contenido.p-5
-      //-       .tarjeta-numerada__numero
-      //-         .h2 3
-      //-       p.text-center 
-      //-         b Ruta integral de atención en salud 
-      //-       p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-      //-   .col-md-6.col-xl.mb-4.mb-xl-0
-      //-     .tarjeta-numerada.color-acento-botones.p-5
-      //-       .tarjeta-numerada__numero
-      //-         .h2 4
-      //-       p.text-center 
-      //-         b Ruta integral de atención en salud 
-      //-       p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas  
-  </template>
+        .col-8.col-lg-4.align-content-center(data-aos="fade-left")
+          figure
+            img.mb-3.mb-lg-4(src="@/assets/actividad/imagen1.png", alt="Una persona preparando conservas de alimentos")
+
+ </template>
 
 <script>
 export default {
