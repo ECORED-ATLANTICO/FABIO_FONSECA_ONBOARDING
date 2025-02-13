@@ -104,6 +104,13 @@ figcaption
   background-size: cover
   background-position: center
 
+.bg-1-1-4
+  position: relative
+  &::before
+    position: absolute
+    content: url('../assets/curso/temas/tema-1/background-1-1-4.svg')
+    top: 0
+
 .author-image
   max-width: 218px;
   margin: 0 auto;
@@ -119,3 +126,22 @@ figcaption
     background-color: lighten($color-secundario, 10%)
     color: white
 
+.tarjeta--factores
+  background: #FAFAFA
+  align-content: start 
+  box-shadow: 0px 3px 6px #DDDDDC
+  border-radius: 8px
+
+
+.number-list
+  background: #73964A
+  color: black
+  border-radius: 5px
+  min-width: 24px
+  height: 24px
+
+.hr-punteado 
+  border-top: 3px dotted #B0C0D2
+  background: transparent
+  margin-bottom: 1em !important
+  margin-top: 1em !important

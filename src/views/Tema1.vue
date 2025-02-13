@@ -66,7 +66,7 @@
                   img.my-1(src='@/assets/curso/temas/tema-1/appertizacion-3.svg', alt='La appertización es un método de conservación de alimentos que implica el sellado de productos en envases herméticos y su posterior tratamiento térmico para eliminar microorganismos y enzimas que pueden afectar la calidad y seguridad de los alimentos.')
                 td Idem y con partículas sólidas
 
-      .row.justify-content-center.my-3.fnd-3.bg-1-1-3.p-3.px-md-5.py-md-4.rounded-5.mb-3.mb-lg-5
+      .row.justify-content-center.my-3.bg-1-1-3.p-3.px-md-5.py-md-4.rounded-5.mb-3.mb-lg-5
         .col-lg-9.align-content-center 
           p.mb-3 Un hito fundamental se dio en 1809 con Nicolas Appert, quien desarrolló un método de conservación de alimentos mediante el envasado hermético y el tratamiento térmico, conocido como appertización. Este descubrimiento revolucionó la forma de conservar alimentos, permitiendo prolongar su vida útil considerablemente. Posteriormente, en 1860, el químico y biólogo Louis Pasteur identificó a los microorganismos, como bacterias y hongos, como los principales responsables del deterioro de los alimentos (Prescott, 2002). Su investigación sentó las bases para el desarrollo de la pasteurización, una técnica que utiliza calor controlado para eliminar microorganismos patógenos y extender la vida útil de los alimentos.
           p.mb-3.mb-lg-0 Louis Pasteur, padre de la pasteurización. Fuente: Dr. Pasteur [i.e., Pasteur], circa 1910 - 1915. Shows Dr. Louis Pasteur (1822-1895). Creator: Bain News Service.
@@ -178,6 +178,47 @@
           figure
             img.mb-3.mb-lg-4(src="@/assets/actividad/imagen1.png", alt="Una persona preparando conservas de alimentos")
 
+        .row.justify-content-center.mb-4.mb-lg-3
+          .col-md-10
+            h4.text-center.color-primario
+              span.intersesion-title.rounded-3 Los factores que determinan el tiempo de escaldado son los siguientes:
+              
+      .row.justify-content-center.mb-3.mb-lg-4.bg-1-1-4
+        .col-md-6.col-lg-3.align-content-center.mb-3.mb-lg-0
+          .tarjeta.tarjeta--slyder.p-4.mb-0.tarjeta--factores(data-aos="zoom-in")
+            img.my-3(src='@/assets/curso/temas/tema-1/frutas.svg', alt='Imagen decorativa')(style="width: 100px; justify-self: center")
+            h4.text-center Variedad de la fruta
+        .col-md-6.col-lg-3.align-content-center.mb-3.mb-lg-0
+          .tarjeta.tarjeta--slyder.p-4.mb-0.h-100.tarjeta--factores(data-aos="zoom-in")
+            img.my-3(src='@/assets/curso/temas/tema-1/metro.svg', alt='Imagen decorativa')(style="width: 100px; justify-self: center")
+            h4.text-center Tamaño
+        .col-md-6.col-lg-3.align-content-center.mb-3.mb-lg-0
+          .tarjeta.tarjeta--slyder.p-4.mb-0.tarjeta--factores(data-aos="zoom-in")
+            img.my-3(src='@/assets/curso/temas/tema-1/termometro.svg', alt='Imagen decorativa')(style="width: 100px; justify-self: center")
+            h4.text-center Temperatura del escaldado
+        .col-md-6.col-lg-3.align-content-center.mb-3.mb-lg-0
+          .tarjeta.tarjeta--slyder.p-4.mb-0.tarjeta--factores(data-aos="zoom-in")
+            img.my-3(src='@/assets/curso/temas/tema-1/fogata.svg', alt='Imagen decorativa')(style="width: 100px; justify-self: center")
+            h4.text-center Sistemas de calentamiento
+
+      .row.justify-content-center.mb-4.mb-lg-3
+        .col-lg-4.col-md-6
+          img.my-3(src='@/assets/curso/temas/tema-1/escalado.png', alt='Guandules')
+        .col-lg-8.align-content-center
+          h5 El escaldado se puede realizar de dos formas
+          ul
+            li.d-flex.gap-2
+              .number-list.text-center
+                span.color-secundario.text-white 1
+              .m-0
+                span Se somete la fruta o verdura a una atmósfera de vapor de agua saturada, esto se puede hacer utilizando ollas a presión o autoclaves. La desventaja de este método es que no siempre se acierta con la temperatura y algunas verduras no necesitan de altas temperaturas.
+          .m-0.hr-punteado 
+          ul
+            li.d-flex.gap-2
+              .number-list.text-center
+                span.color-secundario.text-white 2
+              .m-0
+                span Esta forma consiste en introducir el alimento en agua caliente, esto se puede hacer poniendo a hervir agua en un recipiente y cuando esta esté hirviendo a una temperatura de 100 ºC se introduce la verdura por un tiempo determinado. La desventaja de esta técnica es que altera el valor nutritivo y las características organolépticas del alimento, por esto es importante combinar temperatura y tiempo del escaldado para reducir pérdidas en el sabor y en sus compuestos nutricionales. 
  </template>
 
 <script>
