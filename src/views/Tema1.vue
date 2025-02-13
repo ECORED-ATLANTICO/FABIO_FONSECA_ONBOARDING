@@ -19,8 +19,8 @@
 
       Separador
 
-      h3.titulo-segundo.color-acento-contenido
-        span 1.1 Generalidades de la conservación
+      #t1_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+        h3 1.1 Generalidades de la conservación
       
       .row.justify-content-center.fullwith-bg.mb-3.mb-lg-5
         figure

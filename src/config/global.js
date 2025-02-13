@@ -53,6 +53,13 @@ export default {
         numero: '1',
         titulo: 'Métodos de conservación de frutas y verduras',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Generalidades de la conservación',
+            hash: 't_1_1',
+          },
+        ],
       },
 
       {
@@ -60,6 +67,13 @@ export default {
         numero: '2',
         titulo: 'Preparación de conservas de frutas.',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Esterilización de frascos y tapas',
+            hash: 't_2_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
