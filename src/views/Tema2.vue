@@ -56,7 +56,7 @@
       h3(data-aos='zoom-in-right') 2.2 Llenado y aplicación de vacío
     p.mb-3.mb-lg-4 Una vez esterilizados los frascos y tapas, se procede al llenado con el alimento previamente preparado y a la aplicación del vacío. Este paso es fundamental para eliminar el oxígeno del interior del frasco, creando un ambiente anaeróbico que inhibe el crecimiento de microorganismos aeróbicos y previene la oxidación del producto. Seguir estos pasos:
 
-    .row.justify-content-center.mb-3.mb-lg-4
+    .row.justify-content-center.mb-3.mb-lg-5
       .col-8.col-lg-4.mt-3.align-content-center
         figure
           img.mb-3.mb-lg-4(src='@/assets/curso/temas/tema-2/3.png', alt='Imagen decorativa')
@@ -77,6 +77,78 @@
     
     Separador
 
+    #t_2_3.titulo-segundo.color-acento-contenido
+      h3(data-aos='zoom-in-right') 2.3 Tratamiento térmico: pasteurización y esterilización
+    p.mb-3.mb-lg-4 El tratamiento térmico es esencial para eliminar los microorganismos presentes en los alimentos y garantizar la seguridad de las conservas. Existen dos métodos principales: la pasteurización y la esterilización. 
+
+    .row.justify-content-center.mb-3.mb-lg-5
+      .col-lg-6
+        LineaTiempoD.color-acento-contenido.mt-3
+          .row(numero="1" titulo="Pasteurización")
+            .mb-4.mb-lg-0
+              p La pasteurización, que debe su nombre al científico Louis Pasteur, es un proceso térmico que utiliza calor controlado para eliminar los microorganismos patógenos y extender la vida útil de las conservas sin alterar significativamente su sabor y valor nutricional. Se aplica a alimentos con mayor acidez, como frutas y mermeladas. Existen dos métodos principales:
+              ul
+                li.d-flex.gap-2
+                  .check-list.text-center.text-white
+                    span
+                      i.fa-solid.fa-check
+                  .m-0
+                    span <b style="color: #8C492A">Altas temperaturas: </b> consiste en someter el alimento a una temperatura entre 75 °C y 90 °C durante un tiempo determinado, que varía entre 2 a 3 minutos.
+              .hr-punteado 
+              ul
+                li.d-flex.gap-2
+                  .check-list.text-center.text-white
+                    span
+                      i.fa-solid.fa-check
+                  .m-0
+                    span <b style="color: #8C492A">Bajas temperaturas: </b> este método utiliza temperaturas más bajas, entre 60 °C y 65 °C, pero por un tiempo más prolongado, de 3 a 4 horas.
+          
+          .row(numero="2" titulo="Esterilización")
+            .mb-4.mb-lg-0
+              p La esterilización es un proceso térmico más intenso que la pasteurización y busca eliminar todos los microorganismos presentes en el alimento, incluyendo las esporas bacterianas, altamente resistentes al calor. Se utiliza principalmente para conservas de baja acidez, como vegetales, ya que son más susceptibles al desarrollo del <em>Clostridium botulinum</em>. La esterilización se lleva a cabo generalmente en autoclaves, equipos que permiten aplicar altas temperaturas (entre 116 °C y 120 °C) y presión controlada durante un tiempo específico.
+
+      .col-lg-4.col-md-8.mt-3
+          figure
+            img.my-3(src='@/assets/curso/temas/tema-2/4.png', alt='Imagen decorativa')
+
+    Separador
+
+    #t_2_4.titulo-segundo.color-acento-contenido
+      h3(data-aos='zoom-in-right') 2.4 Enfriamiento y almacenamiento
+    p.mb-3.mb-lg-4 Una vez finalizado el tratamiento térmico, es fundamental enfriar los frascos de forma gradual y controlada para detener la cocción y evitar cambios bruscos de temperatura que puedan afectar la calidad del producto. El enfriamiento lento permite que se forme un vacío dentro del frasco, lo que ayuda a preservar las conservas durante más tiempo. 
+
+    .row.justify-content-center.mb-3.mb-lg-5
+      .col-8.col-lg-4.mt-3.align-content-center
+        figure
+          img.mb-3.mb-lg-4(src='@/assets/curso/temas/tema-2/5.png', alt='Imagen decorativa')
+      .col-lg-8
+        LineaTiempoD.color-acento-contenido.mt-3
+          .row(numero="1" titulo="Enfriamiento al aire")
+            .mb-4.mb-lg-0
+              p Retirar los frascos del baño maría o la olla a presión con cuidado y colocarlos sobre un paño limpio en un lugar fresco y seco, alejados de corrientes de aire. Dejar enfriar completamente a temperatura ambiente.
+          .row(numero="2" titulo="Comprobación del sellado")
+            .mb-4.mb-lg-0
+              p Una vez fríos, verificar que las tapas estén bien selladas presionando el centro de la tapa. Si la tapa no se hunde o se escucha un chasquido, el frasco no se ha sellado correctamente y debe ser refrigerado y consumido en poco tiempo. 
+          .row(numero="3" titulo="Etiquetado")
+            .mb-4.mb-lg-0
+              p Etiquetar los frascos con el nombre del producto y la fecha de elaboración para llevar un control adecuado del inventario.
+          .row(numero="4" titulo="Almacenamiento")
+            .mb-4.mb-lg-0
+              p Almacenar las conservas en un lugar fresco, seco y oscuro, lejos de fuentes de calor y luz solar directa. Un almacenamiento adecuado garantiza la calidad y seguridad de las conservas durante más tiempo.
+    
+    .cajon.color-secundario.p-4.mb-3.mb-lg-5
+      p.mb-0 La elección entre pasteurización y esterilización dependerá del tipo de alimento, su acidez, el tiempo de conservación deseado, la disponibilidad de equipos y las preferencias del elaborador. En cualquier caso, es crucial seguir las indicaciones de la receta y controlar cuidadosamente las condiciones de tiempo y temperatura para obtener conservas seguras y de alta calidad.
+
+    .row.justify-content-center.mb-3.mb-lg-4
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4
+            h5 Figura 1.
+            span <em>Baño maría paso a paso</em>
+        img.my-3(src="@/assets/curso/temas/tema-2/6.png", alt="Baño maría paso a paso")
+        figcaption Fuente: Bueno, (2017).
+    
+    p.mb-2 Los factores más importantes que influyen en la esterilización son:
+    p <b>La acidez o pH del producto:</b> la acidez que interesa cuando se preparan conservas es la acidez potencial de la fruta o verdura, esta se conoce como pH. En la siguiente tabla se muestran los tipos de pH:
 
 </template>
 
