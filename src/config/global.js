@@ -73,6 +73,11 @@ export default {
             titulo: 'Esterilización de frascos y tapas',
             hash: 't_2_1',
           },
+          {
+            numero: '2.1',
+            titulo: 'Llenado y aplicación de vacío',
+            hash: 't_2_2',
+          },
         ],
       },
       {
