@@ -202,7 +202,7 @@
             h4.text-center Sistemas de calentamiento
 
       .row.justify-content-center.mb-4.mb-lg-3
-        .col-lg-4.col-md-6
+        .col-md-6.col-lg-4
           img.my-3(src='@/assets/curso/temas/tema-1/escalado.png', alt='Guandules')
         .col-lg-8.align-content-center
           h5 El escaldado se puede realizar de dos formas
@@ -212,13 +212,84 @@
                 span.color-secundario.text-white 1
               .m-0
                 span Se somete la fruta o verdura a una atmósfera de vapor de agua saturada, esto se puede hacer utilizando ollas a presión o autoclaves. La desventaja de este método es que no siempre se acierta con la temperatura y algunas verduras no necesitan de altas temperaturas.
-          .m-0.hr-punteado 
+          .hr-punteado 
           ul
             li.d-flex.gap-2
               .number-list.text-center
                 span.color-secundario.text-white 2
               .m-0
                 span Esta forma consiste en introducir el alimento en agua caliente, esto se puede hacer poniendo a hervir agua en un recipiente y cuando esta esté hirviendo a una temperatura de 100 ºC se introduce la verdura por un tiempo determinado. La desventaja de esta técnica es que altera el valor nutritivo y las características organolépticas del alimento, por esto es importante combinar temperatura y tiempo del escaldado para reducir pérdidas en el sabor y en sus compuestos nutricionales. 
+
+      .row.justify-content-center.mb-3.mb-lg-5
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido
+              h5 Tabla 1.
+              span <em>Tiempos de escaldado</em>
+          .tabla-a.color-acento-contenido
+            table.text-center.table-striped
+              thead
+                tr(style="background: #5C783B")
+                  th.text-light Clasificación
+                  th.text-light Tiempo de escalado en agua hirviendo
+              tbody
+                tr(style="background: #EDF1E9")
+                  th Espárragos
+                  td(style="color: #5C783B") <b>Pequeños:</b> 2 minutos / <b>Grandes:</b> 4 minutos
+                tr(style="background: #E3EADB")
+                  th Remolachas
+                  td(style="color: #5C783B") <b>Pequeños:</b> 25 - 30 minutos / <b>Grandes:</b> 45 - 50 minutos
+                tr(style="background: #EDF1E9")
+                  th Brócoli
+                  td(style="color: #5C783B") 3 minutos
+                tr(style="background: #E3EADB")
+                  th Coliflor
+                  td(style="color: #5C783B") 3 minutos
+                tr(style="background: #EDF1E9")
+                  th Repollitos de Bruselas
+                  td(style="color: #5C783B") 3 minutos
+                tr(style="background: #E3EADB")
+                  th Zanahoria
+                  td(style="color: #5C783B") <b>En cubos:</b> 2 minutos
+                tr(style="background: #EDF1E9")
+                  th Papa
+                  td(style="color: #5C783B") <b>En cubos:</b> 1 minuto
+                tr(style="background: #E3EADB")
+                  th Acelga
+                  td(style="color: #5C783B") 3 minutos
+                tr(style="background: #EDF1E9")
+                  th Espinaca
+                  td(style="color: #5C783B") 2 minutos
+                tr(style="background: #E3EADB")
+                  th Choclo
+                  td(style="color: #5C783B") 7 - 11 minutos
+                tr(style="background: #EDF1E9")
+                  th Granos de choclo
+                  td(style="color: #5C783B") 4 minutos
+                tr(style="background: #E3EADB")
+                  th Arvejas
+                  td(style="color: #5C783B") 2 - 3 minutos
+                tr(style="background: #EDF1E9")
+                  th Champiñón
+                  td(style="color: #5C783B") 3,5 minutos
+                tr(style="background: #E3EADB")
+                  th Pimiento rojo
+                  td(style="color: #5C783B") <b>Mitades:</b> 3 minutos / <b>Tiras:</b> 2 minutos<br>Puede asarse y congelar sin blanquear
+          figcaption Nota. Sena (2024)
+
+      .row.mb-3.mb-lg-5.justify-content-center
+        .col-lg-8
+          .row.align-items-center.gradiente__green-yellow.py-4.px-2.justify-content-center
+            .col-4.col-lg-2
+              figure
+                img.mb-3.mb-lg-0(src="@/assets/curso/temas/tema-1/envase-amarillo.svg", alt="Ilustración de envase")
+            .col-lg-7.mb-3.mb-lg-0
+              h3.title-acento-botones Historia de los alimentos
+              p.mb-0.text-light Para profundizar sobre la conservación de los alimentos y su historia, le invitamos a explorar el siguiente link.
+            .col-lg-3.text-center
+              a.boton.boton--b(href="https://www.youtube.com/embed/_wzbrO1-zzY?si=rzLGLjR8aXM1PSa9" target="_blank")
+                span Ir al sitio
+                i.fas.fa-solid.fa-link
+
  </template>
 
 <script>
