@@ -140,13 +140,6 @@ figcaption
   min-width: 24px
   height: 24px
 
-.check-list
-  background: #8C492A
-  color: black
-  border-radius: 50%
-  min-width: 20px
-  height: 20px
-
 .hr-punteado 
   border-top: 3px dotted #B0C0D2
   background: transparent
@@ -172,3 +165,20 @@ figcaption
 
 .linea-tiempo-d__item__content .tarjeta
   border-radius: 5px
+
+.check-list
+  li
+    margin-left: 20px
+    position: relative
+    &::before
+      content: url('../assets/curso/temas/tema-2/orange-check.svg')
+      position: absolute
+      left: -20px
+      top: 0
+
+.ph-table
+  tr:nth-child(even)
+    background-color: lighten($color-secundario, 50%)
+
+  tr:nth-child(odd)
+    background-color: lighten($color-secundario, 45%)

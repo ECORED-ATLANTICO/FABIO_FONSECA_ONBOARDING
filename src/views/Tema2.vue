@@ -44,7 +44,7 @@
 
       .col-8.col-lg-4.mt-3.align-content-center
         figure
-          img(src='@/assets/curso/temas/tema-2/2.png', alt='Imagen decorativa')
+          img(data-aos="fade-up")(src='@/assets/curso/temas/tema-2/2.png', alt='Imagen decorativa')
 
     .cajon.color-secundario.p-4.my-3
       h5 Nota
@@ -59,7 +59,7 @@
     .row.justify-content-center.mb-3.mb-lg-5
       .col-8.col-lg-4.mt-3.align-content-center
         figure
-          img.mb-3.mb-lg-4(src='@/assets/curso/temas/tema-2/3.png', alt='Imagen decorativa')
+          img.mb-3.mb-lg-4(data-aos="fade-up")(src='@/assets/curso/temas/tema-2/3.png', alt='Imagen decorativa')
       .col-lg-8
         LineaTiempoD.color-acento-contenido.mt-3
           .row(numero="1" titulo="Llenado")
@@ -81,7 +81,7 @@
       h3(data-aos='zoom-in-right') 2.3 Tratamiento térmico: pasteurización y esterilización
     p.mb-3.mb-lg-4 El tratamiento térmico es esencial para eliminar los microorganismos presentes en los alimentos y garantizar la seguridad de las conservas. Existen dos métodos principales: la pasteurización y la esterilización. 
 
-    .row.justify-content-center.mb-3.mb-lg-5
+    .row.justify-content-center.mb-3.mb-lg-5.check-list
       .col-lg-6
         LineaTiempoD.color-acento-contenido.mt-3
           .row(numero="1" titulo="Pasteurización")
@@ -89,19 +89,11 @@
               p La pasteurización, que debe su nombre al científico Louis Pasteur, es un proceso térmico que utiliza calor controlado para eliminar los microorganismos patógenos y extender la vida útil de las conservas sin alterar significativamente su sabor y valor nutricional. Se aplica a alimentos con mayor acidez, como frutas y mermeladas. Existen dos métodos principales:
               ul
                 li.d-flex.gap-2
-                  .check-list.text-center.text-white
-                    span
-                      i.fa-solid.fa-check
-                  .m-0
-                    span <b style="color: #8C492A">Altas temperaturas: </b> consiste en someter el alimento a una temperatura entre 75 °C y 90 °C durante un tiempo determinado, que varía entre 2 a 3 minutos.
+                  span <b style="color: #8C492A">Altas temperaturas: </b> consiste en someter el alimento a una temperatura entre 75 °C y 90 °C durante un tiempo determinado, que varía entre 2 a 3 minutos.
               .hr-punteado 
               ul
                 li.d-flex.gap-2
-                  .check-list.text-center.text-white
-                    span
-                      i.fa-solid.fa-check
-                  .m-0
-                    span <b style="color: #8C492A">Bajas temperaturas: </b> este método utiliza temperaturas más bajas, entre 60 °C y 65 °C, pero por un tiempo más prolongado, de 3 a 4 horas.
+                  span <b style="color: #8C492A">Bajas temperaturas: </b> este método utiliza temperaturas más bajas, entre 60 °C y 65 °C, pero por un tiempo más prolongado, de 3 a 4 horas.
           
           .row(numero="2" titulo="Esterilización")
             .mb-4.mb-lg-0
@@ -109,7 +101,7 @@
 
       .col-lg-4.col-md-8.mt-3
           figure
-            img.my-3(src='@/assets/curso/temas/tema-2/4.png', alt='Imagen decorativa')
+            img(data-aos="fade-up")(src='@/assets/curso/temas/tema-2/4.png', alt='Imagen decorativa')
 
     Separador
 
@@ -120,7 +112,7 @@
     .row.justify-content-center.mb-3.mb-lg-5
       .col-8.col-lg-4.mt-3.align-content-center
         figure
-          img.mb-3.mb-lg-4(src='@/assets/curso/temas/tema-2/5.png', alt='Imagen decorativa')
+          img.mb-3.mb-lg-4(data-aos="fade-up")(src='@/assets/curso/temas/tema-2/5.png', alt='Imagen decorativa')
       .col-lg-8
         LineaTiempoD.color-acento-contenido.mt-3
           .row(numero="1" titulo="Enfriamiento al aire")
@@ -149,6 +141,174 @@
     
     p.mb-2 Los factores más importantes que influyen en la esterilización son:
     p <b>La acidez o pH del producto:</b> la acidez que interesa cuando se preparan conservas es la acidez potencial de la fruta o verdura, esta se conoce como pH. En la siguiente tabla se muestran los tipos de pH:
+
+    .row.justify-content-center.mb-3.mb-lg-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4
+            h5 Tabla 2.
+            span <em>Valor del pH de frutas y verduras más comunes</em>
+        .tabla-a.color-acento-contenido
+          table.text-center.ph-table
+            thead
+              tr(style="background: #33490B")
+                th(colspan="3").text-light pH de algunas frutas y verduras
+            tbody
+              tr(style="background: #5C783B; color: #ffffff")
+                th Frutas
+                th pH desde
+                th pH hasta
+              tr
+                th Manzana
+                td 3.3
+                td 4.0
+              tr
+                th Banana
+                td 4.5
+                td 5.2
+              tr
+                th Naranja
+                td 3.0
+                td 4.0
+              tr
+                th Fresa
+                td 3.0
+                td 3.9
+              tr
+                th Piña
+                td 3.2
+                td 4.0
+              tr
+                th Mango
+                td 3.5
+                td 4.5
+              tr
+                th Uva
+                td 3.5
+                td 4.5
+              tr
+                th Melón
+                td 6.0
+                td 6.7
+              tr
+                th Sandía
+                td 5.2
+                td 5.8
+              tr
+                th Kiwi
+                td 3.9
+                td 3.9
+              tr
+                th Ciruela
+                td 2.8
+                td 3.6
+              tr(style="background: #5C783B; color: #ffffff")
+                th Verduras
+                th pH desde
+                th pH hasta
+              tr
+                th Tomate
+                td 3.9
+                td 4.5
+              tr
+                th Espinaca
+                td 5.1
+                td 5.7
+              tr
+                th Pepino
+                td 5.1
+                td 5.7
+              tr
+                th Zanahoria
+                td 4.9
+                td 5.5
+              tr
+                th Papa
+                td 5.6
+                td 6.0
+              tr
+                th Brócoli
+                td 6.3
+                td 6.9
+              tr
+                th Espárrago
+                td 6.0
+                td 6.8
+              tr
+                th Cebolla
+                td 5.5
+                td 5.8
+              tr
+                th Ajo
+                td 5.8
+                td 6.5
+              tr
+                th Pimiento
+                td 4.3
+                td 5.3
+              tr
+                th Chaucha
+                td 5.3
+                td 5.8
+              tr
+                th Arveja
+                td 5.5
+                td 5.8
+              tr
+                th Choclo
+                td 6.5
+                td 6.6
+        .tabla-a.color-acento-contenido
+          table.ph-table
+            thead
+              tr
+                td Menos de 4,5 pH
+                td Baño maría
+                td Ácidos
+                td pH inferior a 4,5
+              tr
+                td Más de 4,5 pH
+                td Autoclave
+                td Semiácidos
+                td pH de 4,5 a 6
+              tr
+                td(colspan="2")(rowspan="2") <b>Nota 1:</b> el pH es un factor decisivo a la hora de utilizar baño maría o autoclave.<br><b>Nota 2:</b> estos valores son aproximados y pueden variar ligeramente dependiendo de la variedad, madurez y condiciones de cultivo. 
+                td No ácidos
+                td pH mayor de 6
+              tr
+                td Alcalinos
+                td por encima de 7
+          figcaption Nota. Sena (2024).
+
+    .row.justify-content-center.mb-3.mb-lg-4.check-list
+      .col-8.col-lg-4.align-content-center
+        img.mb-3.mb-lg-0(data-aos="fade-up")(src="@/assets/curso/temas/tema-2/7.png", alt="Imagen decorativa")
+      .col-lg-8
+        h5 Recomendaciones para utilizar las conservas
+        ul.mt-0
+          li
+            span Las conservas no se deben cocinar de nuevo y si se calienta debe ser por periodos cortos.
+        .my-1.hr-punteado
+        ul.mt-0
+          li
+            span Las conservas que son abiertas se dañan con facilidad, por eso es aconsejable consumirlas inmediatamente después de utilizarlas.
+        .my-1.hr-punteado
+        ul.mt-0
+          li
+            span Es aconsejable almacenarlas en lugares frescos.
+        .my-1.hr-punteado
+        ul.mt-0
+          li
+            span Cuando compre conservas en lata, seleccione las que estén en perfectas condiciones y rechace las que estén abolladas u oxidadas.
+        .my-1.hr-punteado
+        ul.mt-0
+          li
+            span Antes de abrir una conserva limpie su envase y cerciórese que produce el sonido de un soplido, si eso ocurre es porque se han llenado calientes al vacío.
+        .my-1.hr-punteado
+        ul.mt-0
+          li
+            span Las conservas que tienen una vida útil corta deben decir en la etiqueta guardar en frío.
+
+
 
 </template>
 
