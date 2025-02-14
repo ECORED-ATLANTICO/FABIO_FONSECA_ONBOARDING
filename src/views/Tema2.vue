@@ -15,7 +15,7 @@
       h3(data-aos='zoom-in-right') 2.1 Esterilización de frascos y tapas
     p.mb-3.mb-lg-4 Antes de envasar cualquier alimento, es crucial asegurar la esterilidad de los frascos y tapas para evitar la proliferación de microorganismos que podrían comprometer la seguridad y calidad del producto final. La esterilización elimina bacterias, hongos y esporas, garantizando un ambiente adecuado para la conservación. Para esterilizar los frascos y tapas, se recomienda el siguiente proceso:
 
-    .row.justify-content-center.mb-3.mb-lg-4
+    .row.justify-content-center.align-items-center.mb-3.mb-lg-4
       .col-lg-8
         LineaTiempoD.color-acento-contenido.mt-3
           .row(numero="1" titulo="Lavado")
@@ -56,7 +56,7 @@
       h3(data-aos='zoom-in-right') 2.2 Llenado y aplicación de vacío
     p.mb-3.mb-lg-4 Una vez esterilizados los frascos y tapas, se procede al llenado con el alimento previamente preparado y a la aplicación del vacío. Este paso es fundamental para eliminar el oxígeno del interior del frasco, creando un ambiente anaeróbico que inhibe el crecimiento de microorganismos aeróbicos y previene la oxidación del producto. Seguir estos pasos:
 
-    .row.justify-content-center.mb-3.mb-lg-5
+    .row.justify-content-center.align-items-center.mb-3.mb-lg-5
       .col-8.col-lg-4.mt-3.align-content-center
         figure
           img.mb-3.mb-lg-4(data-aos="fade-up")(src='@/assets/curso/temas/tema-2/3.png', alt='Imagen decorativa')
@@ -81,7 +81,7 @@
       h3(data-aos='zoom-in-right') 2.3 Tratamiento térmico: pasteurización y esterilización
     p.mb-3.mb-lg-4 El tratamiento térmico es esencial para eliminar los microorganismos presentes en los alimentos y garantizar la seguridad de las conservas. Existen dos métodos principales: la pasteurización y la esterilización. 
 
-    .row.justify-content-center.mb-3.mb-lg-5.check-list
+    .row.justify-content-center.align-items-center.mb-3.mb-lg-5.check-list
       .col-lg-6
         LineaTiempoD.color-acento-contenido.mt-3
           .row(numero="1" titulo="Pasteurización")
@@ -109,7 +109,7 @@
       h3(data-aos='zoom-in-right') 2.4 Enfriamiento y almacenamiento
     p.mb-3.mb-lg-4 Una vez finalizado el tratamiento térmico, es fundamental enfriar los frascos de forma gradual y controlada para detener la cocción y evitar cambios bruscos de temperatura que puedan afectar la calidad del producto. El enfriamiento lento permite que se forme un vacío dentro del frasco, lo que ayuda a preservar las conservas durante más tiempo. 
 
-    .row.justify-content-center.mb-3.mb-lg-5
+    .row.justify-content-center.align-items-center.mb-3.mb-lg-5
       .col-8.col-lg-4.mt-3.align-content-center
         figure
           img.mb-3.mb-lg-4(data-aos="fade-up")(src='@/assets/curso/temas/tema-2/5.png', alt='Imagen decorativa')
@@ -131,7 +131,7 @@
     .cajon.color-secundario.p-4.mb-3.mb-lg-5
       p.mb-0 La elección entre pasteurización y esterilización dependerá del tipo de alimento, su acidez, el tiempo de conservación deseado, la disponibilidad de equipos y las preferencias del elaborador. En cualquier caso, es crucial seguir las indicaciones de la receta y controlar cuidadosamente las condiciones de tiempo y temperatura para obtener conservas seguras y de alta calidad.
 
-    .row.justify-content-center.mb-3.mb-lg-4
+    .row.justify-content-center.align-items-center.mb-3.mb-lg-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
             h5 Figura 1.
@@ -142,7 +142,7 @@
     p.mb-2 Los factores más importantes que influyen en la esterilización son:
     p <b>La acidez o pH del producto:</b> la acidez que interesa cuando se preparan conservas es la acidez potencial de la fruta o verdura, esta se conoce como pH. En la siguiente tabla se muestran los tipos de pH:
 
-    .row.justify-content-center.mb-3.mb-lg-5
+    .row.justify-content-center.align-items-center.mb-3.mb-lg-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
             h5 Tabla 2.
@@ -279,7 +279,7 @@
                 td por encima de 7
           figcaption Nota. Sena (2024).
 
-    .row.justify-content-center.mb-3.mb-lg-4.check-list
+    .row.justify-content-center.align-items-center.mb-3.mb-lg-4.check-list
       .col-8.col-lg-4.align-content-center
         img.mb-3.mb-lg-0(data-aos="fade-up")(src="@/assets/curso/temas/tema-2/7.png", alt="Imagen decorativa")
       .col-lg-8

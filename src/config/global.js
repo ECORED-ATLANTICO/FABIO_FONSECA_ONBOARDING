@@ -74,9 +74,19 @@ export default {
             hash: 't_2_1',
           },
           {
-            numero: '2.1',
+            numero: '2.2',
             titulo: 'Llenado y aplicación de vacío',
             hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Tratamiento térmico: pasteurización y esterilización',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Enfriamiento y almacenamiento',
+            hash: 't_2_4',
           },
         ],
       },

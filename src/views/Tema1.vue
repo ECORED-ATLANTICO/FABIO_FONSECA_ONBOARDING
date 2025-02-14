@@ -19,7 +19,7 @@
 
       Separador
 
-      #t1_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+      #t_1_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
         h3 1.1 Generalidades de la conservación
       
       .row.justify-content-center.fullwith-bg.mb-3.mb-lg-5
@@ -86,7 +86,7 @@
           h4.text-center.color-secundario
             span.intersesion-title.rounded-3 Factores que determinan la calidad de las conservas
 
-      .row.justify-content-center.align-items-center.px-3.py-5.bg-adicional-2.mb-3.mb-lg-5
+      .row.justify-content-center.align-items-center.px-3.py-5.bg-adicional-2.mb-3.mb-lg-5.factores-slider
         .col-lg-8.mb-3.mb-lg-0
           SlyderF(columnas="col-lg-6")
             .tarjeta.p-4.bg-white.rounded-2
