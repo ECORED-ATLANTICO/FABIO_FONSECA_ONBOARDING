@@ -144,10 +144,34 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Métodos de conservación de frutas y verduras',
+      referencia:
+        'Saldaña Romero, A. (2018, 11 de julio). Historia de la conservación de los alimentos [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=QlWfdiU5MQE',
+    },
+    {
+      tema: 'Métodos de conservación de frutas y verduras',
+      referencia:
+        'Lejavitzer, A. (2011). El papel de la fruta. Estudios Avanzados, 16(16), 37-50.',
+      tipo: 'Artículo',
+      descarga:
+        '/downloads/Dialnet-ElPapelDeLaFrutaEnLaGastronomiaRomanaDeEpocaImperi-3852414.pdf',
+    },
+    {
+      tema: 'Preparación de conservas de frutas.',
+      referencia:
+        'Paltrinieri, G. (1997). Procesamiento a pequeña escala de frutas y hortalizas amazónicas nativas e introducidas: Manual técnico. (Tratado de Cooperación Amazónica, Colaborador). TCA.',
+      tipo: 'Capítulo de libro',
+      link:
+        'https://www.fao.org/4/x5029s/X5029S07.htm#4.3%20Mermeladas,%20jaleas,%20jarabes,%20dulces%20y%20confituras',
+    },
+    {
+      tema: 'Preparación de conservas de vegetales.',
+      referencia:
+        'Paltrinieri, G. (1997). Preparación del vinagre (Tratado de Cooperación Amazónica, Colaborador). TCA.',
+      tipo: 'Capítulo de Libro ',
+      link: 'https://www.fao.org/4/x5029s/X5029S09.htm#4.6%20Encurtidos',
     },
   ],
   glosario: [
